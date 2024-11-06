@@ -5,7 +5,7 @@ const data = {
     heroSubtitle: "I'm a front-end developer passionate about creating amazing web experiences.",
     avatar: "Avatar.jpg?height=200&width=200",
     aboutMe: "a passionate front-end developer currently honing my skills at Codespace Academy. I love building beautiful and interactive web applications.",
-    skills: ["React", "Node.js", "TypeScript", "Next.js", "Tailwind CSS"],
+    skills: ["React", "Node.js", "TypeScript", "Next.js", "Tailwind CSS", "Git"],
     projects: [
         {
             title: "Kanban Task Management App",
