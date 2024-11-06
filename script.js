@@ -1,4 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // nav-menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    const menuIcon = document.getElementById('menu-icon');
+
+    menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('-translate-y-full');  // Slide menu up or down
+        navMenu.classList.toggle('translate-y-0');      // Show menu
+
+        // Toggle the icon between hamburger and cross
+        if (menuIcon.textContent === '\u2630') {  // Hamburger icon (&#9776;)
+            menuIcon.textContent = '\u2715';      // Cross icon (&#10005;)
+        } else {
+            menuIcon.textContent = '\u2630';
+        }
+    });
+    
+ 
     // Populate content
     document.getElementById('logo').textContent = data.name;
     document.getElementById('hero-title').textContent = data.heroTitle;
@@ -8,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('about-name').textContent = data.name;
     document.getElementById('about-title').textContent = data.jobTitle;
     document.getElementById('about-description').textContent = data.aboutMe;
-    document.getElementById('footer-name').textContent = data.name;
+
 
     // Populate skills
     const skillsContainer = document.getElementById('skills');
@@ -107,4 +125,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
-});
+})
