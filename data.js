@@ -25,7 +25,7 @@ const data = {
         },
         {
             title: "Domerious Construction",
-            description: "mupltipage website for a local construction company.",
+            description: "A multipage website for a local construction company.",
             technologies: ["html", "javascript", "Tailwind CSS"],
             image: "./brave_screenshot_domerious-construction.netlify.app.png?height=200&width=300&text=domerious-construction-screenshot",
             liveSite: "https://domerious-construction.netlify.app/",
