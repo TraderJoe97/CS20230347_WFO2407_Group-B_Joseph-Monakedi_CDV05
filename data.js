@@ -13,7 +13,7 @@ const data = {
             image: "./brave_screenshot_agiletaskmanager.netlify.app.png?height=200&width=300&text=Task_management_app",
             liveSite: "https://agiletaskmanager.netlify.app/",
             technologies: ["html", "css", "javascript"],
-            githubRepo: "https://github.com/TraderJoe97/Web_Project_1",
+            githubRepo: "https://github.com/TraderJoe97/CS20230347_WFO2407_Group-B_Joseph-Monakedi_JSL11.git",
         },
         {
             title: "web Dashboard",
@@ -30,7 +30,15 @@ const data = {
             image: "./brave_screenshot_domerious-construction.netlify.app.png?height=200&width=300&text=domerious-construction-screenshot",
             liveSite: "https://domerious-construction.netlify.app/",
             githubRepo: "https://github.com/TraderJoe97/Domerius_Construction",
-        }
+        },
+        {
+            title: "Portfolio website",
+            description: "A responsive developer portfolio for Joseph Monakedi",
+            image: "./brave_screenshot_TraderJoe97.png?height=200&width=300&text=TraderJoe97",
+            liveSite: "https://traderjoe97.netlify.app/",
+            githubRepo: "https://github.com/TraderJoe97/CS20230347_WFO2407_Group-B_Joseph-Monakedi_CDV05.git",
+            technologies: ["html", "css", "javascript"],
+        },
     ],
     contactLinks: [
         {
