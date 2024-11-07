@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
  
     // Populate content
-    document.getElementById('logo').textContent = data.name;
+    document.getElementById('logo').textContent = `<${data.name}/>`;
     document.getElementById('hero-title').textContent = data.heroTitle;
     document.getElementById('hero-subtitle').textContent = data.heroSubtitle;
     document.getElementById('avatar').src = data.avatar;
