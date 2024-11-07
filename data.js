@@ -8,6 +8,14 @@ const data = {
     skills: ["React", "Node.js", "TypeScript", "Next.js", "Tailwind CSS", "Git"],
     projects: [
         {
+            title: "Shortly",
+            description: "a Url shortening service that allows users to shorten long urls.",
+            image: "./brave_screenshot_shortly.png?height=200&width=300&text=TraderJoe97",
+            liveSite: "https://joes-shortly.netlify.app//",
+            githubRepo: "https://github.com/TraderJoe97/url-shortening-api",
+            technologies: ["React", "TailwindCSS", "javascript","Typescript","Vite"],
+        },    
+        {
             title: "Kanban Task Management App",
             description: "a agile task management application that allows users to create, manage, and prioritize tasks efficiently.",
             image: "./brave_screenshot_agiletaskmanager.netlify.app.png?height=200&width=300&text=Task_management_app",
@@ -39,7 +47,7 @@ const data = {
             githubRepo: "https://github.com/TraderJoe97/CS20230347_WFO2407_Group-B_Joseph-Monakedi_CDV05.git",
             technologies: ["html", "css", "javascript"],
         },
-    ],
+        ],
     contactLinks: [
         {
             text: "jimonakedi@gmail.com",
