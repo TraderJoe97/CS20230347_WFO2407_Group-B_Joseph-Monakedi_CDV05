@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     // nav-menu toggle
     const menuToggle = document.getElementById('menu-toggle');
@@ -31,10 +32,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Populate skills
     const skillsContainer = document.getElementById('skills');
     data.skills.forEach(skill => {
+        const skillContainer =document.createElement('div');
+        skillContainer.className = 'bg-monochrome-gray-200 dark:bg-monochrome-gray-700 px-3 py-1 rounded-full text-sm';
+        const skillIcon = document.createElement('img');
+        skillIcon.src = data.icons[skill.toString().toLowerCase()];
+        skillIcon.alt = `${skill} icon`;
+        skillIcon.classList.add('w-5', 'h-5');
+        skillContainer.appendChild(skillIcon);
         const skillSpan = document.createElement('span');
-        skillSpan.className = 'bg-monochrome-gray-200 dark:bg-monochrome-gray-700 px-3 py-1 rounded-full text-sm';
-        skillSpan.textContent = skill;
-        skillsContainer.appendChild(skillSpan);
+        skillSpan.textContent = skill 
+        skillsContainer.appendChild(skillContainer).appendChild(skillSpan);
     });
 
     // Populate projects
