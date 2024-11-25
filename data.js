@@ -8,6 +8,14 @@ const data = {
     skills: ["html", "css", "javascript", "React", "Nodejs", "TypeScript" , "TailwindCSS", "Git"],
     projects: [
         {
+            title: "Joes-Podcast_App",
+            description: "a podcast streaming platform that allows users to listen to their favorite podcasts.",
+            image: "./brave_screenshot_podcast.png?height=200&width=300&text=TraderJoe97",
+            liveSite: "https://joes-podcasts.netlify.app/",
+            githubRepo: "https://github.com/TraderJoe97/CS20230347_WFO2407_Group-B_Joseph-Monakedi_DJS11.git",
+            technologies: ["React", "TailwindCSS", "javascript","Typescript","Vite"],
+        },
+        {
             title: "Shortly",
             description: "a Url shortening service that allows users to shorten long urls.",
             image: "./brave_screenshot_shortly.png?height=200&width=300&text=TraderJoe97",
