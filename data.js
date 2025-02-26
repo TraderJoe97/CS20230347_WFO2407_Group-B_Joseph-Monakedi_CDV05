@@ -40,14 +40,6 @@ const data = {
             technologies: ["html", "css", "javascript"],
         },
         {
-            title: "Domerious Construction",
-            description: "A multipage website for a local construction company.",
-            technologies: ["html", "javascript", "Tailwind CSS"],
-            image: "./brave_screenshot_domerious-construction.netlify.app.png?height=200&width=300&text=domerious-construction-screenshot",
-            liveSite: "https://domerious-construction.netlify.app/",
-            githubRepo: "https://github.com/TraderJoe97/Domerius_Construction",
-        },
-        {
             title: "Portfolio website",
             description: "A responsive developer portfolio for Joseph Monakedi",
             image: "./brave_screenshot_TraderJoe97.png?height=200&width=300&text=TraderJoe97",
